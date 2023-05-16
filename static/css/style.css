@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+
+body {
+    background: black;
+}
+
+.start-music {
+    margin-top: 4px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#play {
+    background: #f3e7f9;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2';
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 950px) {
+    .start-music {
+        margin-top: 34px;
+    }
+}
