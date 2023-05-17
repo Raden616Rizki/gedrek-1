@@ -13,7 +13,7 @@ Array.prototype.createObjectFrom2D = function () {
         // console.log(row);
         row.forEach((symbol, x) => {
             // console.log(symbol)
-            if(symbol === 292) {
+            if(symbol === 292 || symbol === 250) {
                 // push a new collision into collisionblocks array
                 objects.push(new CollisionBlock({
                     position: {

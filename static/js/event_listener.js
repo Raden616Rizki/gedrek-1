@@ -20,11 +20,11 @@ function move(way) {
 
             jump.play();
 
-            // if (player.velocity.y === 0) {
-            //     player.velocity.y = -25;
-            // }
+            if (player.velocity.y === 0) {
+                player.velocity.y = -25;
+            }
 
-            player.velocity.y = -25;
+            // player.velocity.y = -25;
 
         } else if (key === 'a' || key === 'ArrowLeft') {
             keys.a.pressed = true;
